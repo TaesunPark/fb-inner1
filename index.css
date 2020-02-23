@@ -1,0 +1,105 @@
+
+.container1{
+    display: flex;
+    background-color: rgb(65,88,152);
+    border: solid rgb(65,88,152) 1px ;
+    position: relative;
+    bottom : 8px;
+    height: 80px;
+}
+#img1{
+    width : 180px;
+    position: relative;
+    left : 220px;
+    top:10px;
+}
+.form3{
+    position: relative;
+    left: 590px;
+    padding: 10px;
+}
+input.form2{
+    width: 140px;
+}
+label.form1{
+    color: white;
+    font-size: 11px;
+    margin: 0;
+}
+#btn1 {
+    position: relative;
+    left: 590px;
+    top: 35px;
+    width: 44px;
+    font-size: 9px;
+    height: 20px;
+    background-color: rgb(0,120,152);
+    border: rgb(65,88,152) 1px solid;
+    color: white;
+}
+#btn1:hover{
+    border: black 1px solid;
+    background-color: rgb(65,88,152);   
+}
+#btn2{
+    color:#dddddd;
+}
+#btn2:hover{
+    text-decoration: underline;
+}
+
+ .container2{
+     display: grid;
+     grid-template-columns: 410px 410px;
+     
+     
+ }
+ .one{
+    position: relative;
+    left:240px;
+    top:40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bord;  
+ }
+ 
+ .two{   
+    position: relative;
+    left:380px;
+    top : 20px;
+    
+ }
+
+ .font1{
+    font-size : 33px;
+    font-weight: 600;
+ }
+ .font2{
+     font-size: 18px;
+     font-weight: 540;
+ }
+ div.two{
+     line-height: 240%;
+ }
+ .login1{
+     display: flex;
+ }
+ .login-form2{
+    position: relative;
+    left: 10px;
+ }
+ .box-shape{
+     font-size: 12px;
+     width: auto;
+     height: 25px;
+ }
+ .submain1{
+    position: relative;
+    font-size: 10px;
+    bottom: 10px;
+    line-height: 15px;
+    width: 290px;
+}
+.radio-box{
+    
+}
