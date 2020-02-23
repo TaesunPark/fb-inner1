@@ -52,7 +52,9 @@ label.form1{
      display: grid;
      grid-template-columns: 410px 410px;
      
-     
+ }
+ .container3{
+     display: block;
  }
  .one{
     position: relative;
@@ -100,6 +102,45 @@ label.form1{
     line-height: 15px;
     width: 290px;
 }
-.radio-box{
+.container3{
+    position: relative;
+    top:40px;
+    margin-left: 354px;
+    margin-right: 354px;
+}
+
+li.listt{
+    display: inline;
+    font-size: 13px;
+}
+.list3{
+    margin: 3px;
+}
+.login_form{
     
+    border: #dddddd 2px solid;
+    border-radius: 5px;
+    height: 35px;
+    width: 200px;
+    margin-bottom: 10px;
+    color: gray;
+}
+.login_form2
+{
+    border: #dddddd 2px solid;
+    border-radius: 5px;
+    height: 35px;
+    width: 412px;
+    margin-bottom: 10px;
+    color: gray;
+}
+.btn3{
+    color: white;
+    background-color: rgb(65,169,76);
+    width: 200px;
+    height: 40px;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 5%;
+    border: rgb(65,169,76) 1px solid;
 }
