@@ -1,11 +1,12 @@
-
-.container1{
+html, body {
+    height:100%;
+    padding:0;
+    margin:0;
+}
+.head-container1{
     display: flex;
     background-color: rgb(65,88,152);
     border: solid rgb(65,88,152) 1px ;
-    position: relative;
-    bottom : 8px;
-    height: 80px;
 }
 #img1{
     width : 180px;
