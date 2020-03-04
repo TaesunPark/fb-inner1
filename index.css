@@ -8,21 +8,37 @@ html, body {
     background-color: rgb(65,88,152);
     border: solid rgb(65,88,152) 1px ;
 }
+.body-container1{
+    display: grid;
+    grid-template-columns: 410px 410px;
+}
+.bottom-container1{
+    position: relative;
+    top:40px;
+    margin-left: 354px;
+    margin-right: 354px;
+}
+.container3{
+    position: relative;
+    top:40px;
+    margin-left: 354px;
+    margin-right: 354px;
+}
 #img1{
     width : 180px;
     position: relative;
     left : 220px;
     top:10px;
 }
-.form3{
+.head-form1{
     position: relative;
     left: 590px;
     padding: 10px;
 }
-input.form2{
+input.head-form3{
     width: 140px;
 }
-label.form1{
+label.head-form2{
     color: white;
     font-size: 11px;
     margin: 0;
@@ -49,15 +65,9 @@ label.form1{
     text-decoration: underline;
 }
 
- .container2{
-     display: grid;
-     grid-template-columns: 410px 410px;
-     
- }
- .container3{
-     display: block;
- }
- .one{
+ 
+
+ .body-grid1{
     position: relative;
     left:240px;
     top:40px;
@@ -66,58 +76,28 @@ label.form1{
     font-weight: bord;  
  }
  
- .two{   
+ .body-grid2{   
     position: relative;
     left:380px;
     top : 20px;
     
  }
 
- .font1{
+ .body-font1{
     font-size : 33px;
     font-weight: 600;
  }
- .font2{
+ .body-font2{
      font-size: 18px;
      font-weight: 540;
  }
- div.two{
+ div.body-grid2{
      line-height: 240%;
  }
  .login1{
      display: flex;
  }
- .login-form2{
-    position: relative;
-    left: 10px;
- }
- .box-shape{
-     font-size: 12px;
-     width: auto;
-     height: 25px;
- }
- .submain1{
-    position: relative;
-    font-size: 10px;
-    bottom: 10px;
-    line-height: 15px;
-    width: 290px;
-}
-.container3{
-    position: relative;
-    top:40px;
-    margin-left: 354px;
-    margin-right: 354px;
-}
-
-li.listt{
-    display: inline;
-    font-size: 13px;
-}
-.list3{
-    margin: 3px;
-}
-.login_form{
+ .login-form{
     
     border: #dddddd 2px solid;
     border-radius: 5px;
@@ -126,7 +106,8 @@ li.listt{
     margin-bottom: 10px;
     color: gray;
 }
-.login_form2
+ 
+.login-form2
 {
     border: #dddddd 2px solid;
     border-radius: 5px;
@@ -135,7 +116,12 @@ li.listt{
     margin-bottom: 10px;
     color: gray;
 }
-.btn3{
+ .box-shape{
+     font-size: 12px;
+     width: auto;
+     height: 25px;
+ }
+ .btn3{
     color: white;
     background-color: rgb(65,169,76);
     width: 200px;
@@ -145,3 +131,20 @@ li.listt{
     border-radius: 5%;
     border: rgb(65,169,76) 1px solid;
 }
+ .submain1{
+    position: relative;
+    font-size: 10px;
+    bottom: 10px;
+    line-height: 15px;
+    width: 290px;
+}
+
+
+li.listt{
+    display: inline;
+    font-size: 13px;
+}
+.list3{
+    margin: 3px;
+}
+
