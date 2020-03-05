@@ -26,3 +26,4 @@ function dfunction(){
     }
     document.getElementById("js-drop3").innerHTML = strDay;
 }
+
