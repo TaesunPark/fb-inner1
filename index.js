@@ -6,7 +6,7 @@ function yfunction(){
     {
         strYear += "<option value="+i+">"+i+"</option>";
     }
-    document.getElementById("drop1").innerHTML = strYear;
+    document.getElementById("js-drop1").innerHTML = strYear;
 }
 function mfunction(){
     var i;
@@ -15,7 +15,7 @@ function mfunction(){
     {
         strMonth += "<option value="+i+">"+i+"월"+"</option>";
     }
-    document.getElementById("drop2").innerHTML = strMonth;
+    document.getElementById("js-drop2").innerHTML = strMonth;
 }
 function dfunction(){
     var i;
@@ -24,5 +24,5 @@ function dfunction(){
     {
         strDay += "<option value="+i+">"+i+"</option>";
     }
-    document.getElementById("drop3").innerHTML = strDay;
+    document.getElementById("js-drop3").innerHTML = strDay;
 }
