@@ -1,29 +1,49 @@
-
-function yfunction(){
-    var i;
-    var strYear = "";
-    for(i=2020;i>=1905;i--)
-    {
-        strYear += "<option value="+i+">"+i+"</option>";
-    }
-    document.getElementById("js-drop1").innerHTML = strYear;
-}
-function mfunction(){
-    var i;
-    var strMonth = "";
-    for(i=1;i<=12;i++)
-    {
-        strMonth += "<option value="+i+">"+i+"월"+"</option>";
-    }
-    document.getElementById("js-drop2").innerHTML = strMonth;
-}
-function dfunction(){
-    var i;
-    var strDay = "";
-    for(i=1;i<=31;i++)
-    {
-        strDay += "<option value="+i+">"+i+"</option>";
-    }
-    document.getElementById("js-drop3").innerHTML = strDay;
-}
+$(document).ready(function(){
+    $("#js-checkbox1").click(function(){
+        if($("#js-textbox1").css("display") =="none"){
+            $("#js-textbox1").show();
+        }
+    })
+})
+$(document).ready(function(){
+    $(document).mouseup(function(e){
+        if($("#js-checkbox1").has(e.target).length === 0)
+        {
+            $("#js-textbox1").hide();
+        }   
+        if($("#js-checkbox2").has(e.target).length === 0)
+        {
+            $("#js-textbox2").hide();
+        } 
+        if($("#js-checkbox3").has(e.target).length === 0)
+        {
+            $("#js-textbox3").hide();
+        } 
+        if($("#js-checkbox4").has(e.target).length === 0)
+        {
+            $("#js-textbox4").hide();
+        } 
+    })
+})
+$(document).ready(function(){
+    $("#js-checkbox2").click(function(){
+        if($("#js-textbox2").css("display") =="none"){
+            $("#js-textbox2").show();
+        }
+    })
+})
+$(document).ready(function(){
+    $("#js-checkbox3").click(function(){
+        if($("#js-textbox3").css("display") =="none"){
+            $("#js-textbox3").show();
+        }
+    })
+})
+$(document).ready(function(){
+    $("#js-checkbox4").click(function(){
+        if($("#js-textbox4").css("display") =="none"){
+            $("#js-textbox4").show();
+        }
+    })
+})
 
